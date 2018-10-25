@@ -1,0 +1,57 @@
+#footer {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	background-color: black;  
+	flex:1;
+
+}
+
+#footer img {
+	padding: 20px; 
+	margin-right: 20px;
+
+
+}
+
+#footer p {
+	color: white; 
+	text-align: center; 
+
+
+}
+
+#footer ul {
+
+	list-style-type: none;
+	text-align: center;
+
+}
+
+#footer li {
+	display: inline;
+	padding: 10px; 
+	list-style-type: none; 
+
+
+}
+
+#footer i {
+	font-size: 50px;
+	color: white; 
+
+}
+
+#footer i:hover {
+	color: red; 
+
+}
+
+#footer a {
+	margin-left: 20px; 
+	margin-bottom: : 20px; 
+}
+
+
+

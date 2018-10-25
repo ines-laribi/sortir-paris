@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans|PT+Serif");
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css");
+
+@import url("components/barre.css");
+
+body {
+	font-family: 'pt sans', sans-serif; 
+	font-size: 18px;
+	margin : 0px;
+
+}
+
+h2 { 
+	font-family: 'abril fatface', cursive; 
+	font-size: 25;
+	font-weight: lighter; 
+	font-style: italic;  
+	 }
+
+h1, h3 {
+	font-family: 'pt serif', serif;
+	font-size: 20px; 
+
+
+}
+
+a {
+	text-decoration: none; 
+}

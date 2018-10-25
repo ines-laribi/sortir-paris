@@ -1,0 +1,66 @@
+.barre {
+	display: table;
+	width: 100%;
+	margin: 0px auto;
+	padding: 0;
+	background: black;
+	background: linear-gradient black;
+	background: -webkit-linear-gradient black ;
+	background: -moz-linear-gradient black ;
+	background: -ms-linear-gradient black;
+	background: -o-linear-gradient black;
+	background: linear-gradient black;
+		border-radius: 3px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+	0 3px 5px rgba(0, 0, 0, .2),
+	0 5px 10px rgba(0, 0, 0, .2),
+	0 20px 20px rgba(0, 0, 0, .15);
+
+}
+
+.barre li{
+	display: table-cell;
+}
+
+.barre li a{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'pt serif', serif;
+	font-weight: lighter;
+	color: white;
+	text-decoration: none;
+	padding: 8px 8px 17px 8px;
+	box-shadow: 0 1px 0 white, inset,
+	0 -1px 0 hsl(251, 46%, 86%) inset,
+	0 -2px 0 hsl(250, 47%, 82%) inset,
+	0 -3px 0 hsl(251, 49%, 81%) inset,
+	0 -4px 0 hsl(250, 53%, 80%) inset,
+	0 -5px 0 hsl(250, 54%, 77%) inset;
+	transition: all .3s .1s;
+}
+
+.barre li:first-child a{
+	border-radius: 3px 0 0 3px;
+}
+.barre li:last-child a{
+	border-radius: 0 3px 3px 0;
+}
+
+.barre li a:hover,
+.barre li a:focus{
+	background: grey;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset,
+	0 -1px 0 hsl(251, 46%, 81%) inset,
+	0 -2px 0 hsl(250, 47%, 78%) inset,
+	0 -3px 0 hsl(251, 49%, 76%) inset,
+	0 -4px 0 hsl(250, 53%, 75%) inset,
+	0 -5px 0 hsl(250, 54%, 72%) inset;
+	padding: 8px 25px 17px 25px;
+	transition: all .3s 0s;
+}
+
+.barre li a:active{
+	background: linear-gradient white; 
+	box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+}
